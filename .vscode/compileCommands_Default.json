@@ -1,0 +1,106 @@
+[
+	{
+		"file": "E:\\develop\\ArenaBattle\\Source\\ArenaBattle\\ABCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\develop\\ArenaBattle\\.vscode\\compileCommands_Default\\ArenaBattle.255.rsp"
+		],
+		"directory": "C:\\Program Files\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\develop\\ArenaBattle\\Source\\ArenaBattle\\ABCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\develop\\ArenaBattle\\.vscode\\compileCommands_Default\\ArenaBattle.255.rsp"
+		],
+		"directory": "C:\\Program Files\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\develop\\ArenaBattle\\Source\\ArenaBattle\\ABGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\develop\\ArenaBattle\\.vscode\\compileCommands_Default\\ArenaBattle.255.rsp"
+		],
+		"directory": "C:\\Program Files\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\develop\\ArenaBattle\\Source\\ArenaBattle\\ABGameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\develop\\ArenaBattle\\.vscode\\compileCommands_Default\\ArenaBattle.255.rsp"
+		],
+		"directory": "C:\\Program Files\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\develop\\ArenaBattle\\Source\\ArenaBattle\\ABPawn.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\develop\\ArenaBattle\\.vscode\\compileCommands_Default\\ArenaBattle.255.rsp"
+		],
+		"directory": "C:\\Program Files\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\develop\\ArenaBattle\\Source\\ArenaBattle\\ABPawn.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\develop\\ArenaBattle\\.vscode\\compileCommands_Default\\ArenaBattle.255.rsp"
+		],
+		"directory": "C:\\Program Files\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\develop\\ArenaBattle\\Source\\ArenaBattle\\ABPlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\develop\\ArenaBattle\\.vscode\\compileCommands_Default\\ArenaBattle.255.rsp"
+		],
+		"directory": "C:\\Program Files\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\develop\\ArenaBattle\\Source\\ArenaBattle\\ABPlayerController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\develop\\ArenaBattle\\.vscode\\compileCommands_Default\\ArenaBattle.255.rsp"
+		],
+		"directory": "C:\\Program Files\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\develop\\ArenaBattle\\Source\\ArenaBattle\\ArenaBattle.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\develop\\ArenaBattle\\.vscode\\compileCommands_Default\\ArenaBattle.255.rsp"
+		],
+		"directory": "C:\\Program Files\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\develop\\ArenaBattle\\Source\\ArenaBattle\\ArenaBattle.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\develop\\ArenaBattle\\.vscode\\compileCommands_Default\\ArenaBattle.255.rsp"
+		],
+		"directory": "C:\\Program Files\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\develop\\ArenaBattle\\Source\\ArenaBattle\\ArenaBattle.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\develop\\ArenaBattle\\.vscode\\compileCommands_Default\\ArenaBattle.255.rsp"
+		],
+		"directory": "C:\\Program Files\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\develop\\ArenaBattle\\Source\\ArenaBattle\\Fountain.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\develop\\ArenaBattle\\.vscode\\compileCommands_Default\\ArenaBattle.255.rsp"
+		],
+		"directory": "C:\\Program Files\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\develop\\ArenaBattle\\Source\\ArenaBattle\\Fountain.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.34.31933\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\develop\\ArenaBattle\\.vscode\\compileCommands_Default\\ArenaBattle.255.rsp"
+		],
+		"directory": "C:\\Program Files\\UE_5.1\\Engine\\Source"
+	}
+]
