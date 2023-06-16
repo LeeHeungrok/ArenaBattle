@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ArenaBattle Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"Win64",
+				"Debug",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"Win64",
+				"Debug",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ArenaBattle Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArenaBattle",
+				"Win64",
+				"Debug",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"Win64",
+				"DebugGame",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"Win64",
+				"DebugGame",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ArenaBattle Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArenaBattle",
+				"Win64",
+				"DebugGame",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"Win64",
+				"Development",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"Win64",
+				"Development",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ArenaBattle Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArenaBattle",
+				"Win64",
+				"Development",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"Win64",
+				"Test",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"Win64",
+				"Test",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ArenaBattle Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArenaBattle",
+				"Win64",
+				"Test",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"Win64",
+				"Shipping",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"Win64",
+				"Shipping",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ArenaBattle Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArenaBattle",
+				"Win64",
+				"Shipping",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"IOS",
+				"Debug",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"IOS",
+				"Debug",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ArenaBattle IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArenaBattle",
+				"IOS",
+				"Debug",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"IOS",
+				"DebugGame",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"IOS",
+				"DebugGame",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ArenaBattle IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArenaBattle",
+				"IOS",
+				"DebugGame",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"IOS",
+				"Development",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"IOS",
+				"Development",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ArenaBattle IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArenaBattle",
+				"IOS",
+				"Development",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"IOS",
+				"Test",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"IOS",
+				"Test",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ArenaBattle IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArenaBattle",
+				"IOS",
+				"Test",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"IOS",
+				"Shipping",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattle",
+				"IOS",
+				"Shipping",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ArenaBattle IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattle IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArenaBattle",
+				"IOS",
+				"Shipping",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattleEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattleEditor",
+				"Win64",
+				"Debug",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattleEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattleEditor",
+				"Win64",
+				"Debug",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ArenaBattleEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattleEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArenaBattleEditor",
+				"Win64",
+				"Debug",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattleEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattleEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattleEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattleEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ArenaBattleEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattleEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArenaBattleEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattleEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattleEditor",
+				"Win64",
+				"Development",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattleEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"ArenaBattleEditor",
+				"Win64",
+				"Development",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ArenaBattleEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		},
+		{
+			"label": "ArenaBattleEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"ArenaBattleEditor",
+				"Win64",
+				"Development",
+				"C:\\Develop\\ArenaBattle\\ArenaBattle.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\UE_5.2"
+			}
+		}
+	]
+}
