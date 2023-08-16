@@ -17,11 +17,14 @@ class ARENABATTLE_API AABAIController : public AAIController
 public:
 	AABAIController();
 	virtual void OnPossess(APawn* InPawn) override;
-	virtual void OnUnPossess() override;
+
+	static const FName HomePosKey;
+	static const FName PatrolPosKey;
 
 private:
-	void OnRepeatTimer();
+	UPROPERTY()
+	class UBehaviorTree* BTAsset;
 
-	FTimerHandle RepeatTimerHandle;
-	float RepeatInterval;
+	UPROPERTY()
+	class UBlackboardData* BBAsset;
 };
