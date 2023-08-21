@@ -2,20 +2,38 @@
 
 
 #include "BTTask_Attack.h"
+#include "ABAIController.h"
+#include "ABCharacter.h"
 
 UBTTask_Attack::UBTTask_Attack()
 {
+    NodeName = TEXT("Attack");
     bNotifyTick = true;
+    IsAttacking = false;
 }
 
 EBTNodeResult::Type UBTTask_Attack::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
     EBTNodeResult::Type Result = Super::ExecuteTask(OwnerComp, NodeMemory);
-    return EBTNodeResult::InProgress;
+
+    auto ABCharacter = Cast<AABCharacter>(OwnerComp.GetAIOwner()->GetPawn());
+    if (ABCharacter == nullptr)
+        return EBTNodeResult::Type::Failed;
+
+    ABCharacter->Attack();
+    IsAttacking = true;
+    ABCharacter->OnAttackEnd.AddLambda([this]() -> void {
+        IsAttacking = false;
+    });
+
+    return EBTNodeResult::Type::InProgress;
 }
 
 void UBTTask_Attack::TickTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory, float DeltaSeconds)
 {
     Super::TickTask(OwnerComp, NodeMemory, DeltaSeconds);
-    FinishLatentTask(OwnerComp, EBTNodeResult::Succeeded);
+    if (!IsAttacking)
+    {
+        FinishLatentTask(OwnerComp, EBTNodeResult::Succeeded);
+    }
 }
